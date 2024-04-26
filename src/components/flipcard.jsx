@@ -31,7 +31,7 @@ const FlipCard = () => {
                         <button><MdOutlineLightbulb className=" text-white" size={30} /></button>
                         <button><HiOutlineSpeakerWave className=" text-white" size={30} /></button>
                     </div>
-                    <h1 className=" text-white font-bold text-4xl"> 9+6+7x-2x-3</h1>
+                    <h1 className=" text-white font-bold text-4xl"> 5x+12</h1>
                 </div>
 
             </div>
