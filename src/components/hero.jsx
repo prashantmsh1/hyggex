@@ -3,6 +3,7 @@ import { HiOutlineSpeakerWave } from "react-icons/hi2";
 import { IoMdRefresh } from "react-icons/io";
 import { IoChevronBackCircle, IoChevronForwardCircle } from "react-icons/io5";
 import { CgMaximize } from "react-icons/cg";
+import FlipCard from "./flipcard";
 
 
 
@@ -23,14 +24,15 @@ const Hero = () => {
                     <div className="transition-all duration-100 hover:border-b-[3px] text-gray-500 px-2 py-1 hover:text-blue-950 border-blue-950">Others</div>
                 </div>
 
-                <div>
-                    <div className=" justify-center relative flex items-center bg-gradient-to-tr from-blue-500 from-10%  via-blue-700 to-blue-950 h-56 md:h-96 mt-8 mb-8 rounded-[40px] ">
+                <div className=" ">
+                    {/* <div className=" justify-center mx-auto relative flex items-center bg-gradient-to-tr from-blue-500 from-10%  via-blue-700 to-blue-950 h-56 md:h-96 mt-8 mb-8 rounded-[40px] ">
                         <div className=" w-full px-10 my-8 absolute left-0 top-0 flex flex-row justify-between ">
                             <button><MdOutlineLightbulb className=" text-white" size={30} /></button>
                             <button><HiOutlineSpeakerWave className=" text-white" size={30} /></button>
                         </div>
                         <h1 className=" text-white font-bold text-4xl"> 9+6+7x-2x-3</h1>
-                    </div>
+                    </div> */}
+                    <FlipCard />
                     <div className=" md:px-12 flex flex-row justify-between items-center">
                         <div><button><IoMdRefresh className=" text-blue-800 text-5xl " /></button></div>
                         <div className=" flex flex-row justify-between items-center space-x-6">

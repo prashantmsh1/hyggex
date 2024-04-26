@@ -19,12 +19,15 @@ To install the dependencies, run the following command:
 
 ```bash
 npm install
+```
 
 Usage
 To start the application, run the following command:
+
 ```bash
 npm run dev 
-
+```
+##
 The application will start and can be accessed at http://localhost:3000.
 
 Components
