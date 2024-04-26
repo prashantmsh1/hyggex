@@ -10,7 +10,7 @@ const Breadcrumb = () => {
 
             </div>
             <div className=" flex items-center">
-                <ul className=" *:flex *:flex-row *:items-center *:font-medium *:text-lg *:text-gray-500  flex flex-row md:space-x-2 ">
+                <ul className=" *:flex md:*:flex-row flex-wrap *:items-center *:font-medium *:text-lg *:text-gray-500  flex flex-row md:space-x-2 ">
                     <li className="  ">
                         <IoIosArrowForward className=" text-blue-900" />
                         Flashcard
@@ -23,7 +23,7 @@ const Breadcrumb = () => {
                     <li className=" ">
 
                         <IoIosArrowForward className=" text-blue-900" />
-                        <span className="  text-blue-950">Relation and Functions</span>
+                        <span className=" text-wrap  text-blue-950">Relation and Functions</span>
                     </li>
                 </ul>
             </div>
